@@ -1,0 +1,7 @@
+#wpcf7-f1471-p1468-o1 ::-webkit-input-placeholder { font-style:italic;} /* gray80 */
+#wpcf7-f1471-p1468-o1 :-moz-placeholder           { font-style:italic;} /* Firefox 18- (one color)*/
+#wpcf7-f1471-p1468-o1 ::-moz-placeholder          { font-style:italic; } /* Firefox 19+ (double colons) */
+#wpcf7-f1471-p1468-o1 :-ms-input-placeholder      { font-style:italic; }
+#wpcf7-f1471-p1468-o1 :placeholder      { font-style:italic; }
+.snow_bg .wpcf7-mail-sent-ok, .snow_bg .wpcf7-validation-errors {border:none;}
+

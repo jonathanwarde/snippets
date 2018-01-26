@@ -1,0 +1,53 @@
+ <div class="thumb">
+        <img src="http://img862.imageshack.us/img862/7524/dsc01741m.jpg" title="iPhone on my bike" alt="iPhone on my bike" />
+        <div>
+            <div>
+                <h2>Photo #1:</h2>
+                <p>iPhone on my bike.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+		
+.thumb {
+    position: relative;
+    width: 500px;
+    height: 335px;
+    overflow: hidden;
+}
+.thumb img {
+    width: 100%;
+    padding: 0;
+}
+.thumb > div {
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+    color: #ccc;
+}
+.thumb:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.thumb > div div {
+    padding: 20px 40px;
+}
+.thumb h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.thumb p {
+    margin-bottom: 10px;
+}
+    </style>

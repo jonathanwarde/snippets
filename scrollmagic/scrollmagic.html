@@ -1,0 +1,39 @@
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+<script>
+var controller = new ScrollMagic.Controller();
+
+//var scene1 = new ScrollMagic.Scene({
+  //triggerElement: '#trigger1'
+//}).setTween('#animate1', 0.5, {backgroundColor: '#fff', scale: 1.2})
+//.addIndicators({name: "1 - no duration"})
+//.addTo(controller);
+
+var scene1 = new ScrollMagic.Scene({
+  triggerElement: '#trigger1'
+})
+.setTween('#animate1', 0.5, {backgroundColor: '#fff'})
+.setClassToggle('body', 'scene-1-active')
+.addIndicators({name: "1 - no duration"})
+.addTo(controller);
+
+
+</script>
+
+
+
+<section id="trigger1">
+	here is my scroll trigger 
+
+</section>
+
+<section id="animate1">
+and here is the element i will be animating 	
+
+</section>

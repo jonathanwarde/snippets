@@ -1,0 +1,46 @@
+/* cat animation */
+
+#cat {position:relative; background:transparent url(cat/cat1.jpg) no-repeat 0 0; width:230px; height:150px; z-index:10; overflow:hidden; margin:0 auto;}
+
+#cat ul {padding:0; margin:0; }
+#cat li {list-style-type:none;}
+#cat a, #cat a:visited, #cat a:active, #cat a:focus  {position:absolute; width:19px; height:0; padding-top:150px; overflow:hidden; z-index:100; cursor:default;}
+* html #cat a, * html #cat a:visited {height:150px; he\ight:0;}
+#cat a img, #cat a:visited img {border:0;}
+#cat a#xc1 {top:0; left:0; background:transparent url(cat/cat1.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#xc2 {top:0; left:19px; background:transparent url(cat/cat2.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#xc3 {top:0; left:38px; background:transparent url(cat/cat3.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#xc4 {top:0; left:57px; background:transparent url(cat/cat4.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#xc5 {top:0; left:76px; background:transparent url(cat/cat5.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c6 {top:0; left:95px; background:transparent url(cat/cat6.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c7 {top:0; left:114px; background:transparent url(cat/cat7.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c8 {top:0; left:133px; background:transparent url(cat/cat8.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c9 {top:0; left:152px; background:transparent url(cat/cat9.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c10 {top:0; left:171px; background:transparent url(cat/cat10.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c11 {top:0; left:190px; background:transparent url(cat/cat11.jpg) no-repeat 0 -200px; z-index:100;}
+#cat a#c12 {top:0; left:209px; background:transparent url(cat/cat12.jpg) no-repeat 0 -200px; z-index:100;}
+
+#cat a#xc1:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#xc1:hover {height:150px; he\ight:0;}
+#cat a#xc2:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#xc2:hover {height:150px; he\ight:0;}
+#cat a#xc3:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#xc3:hover {height:150px; he\ight:0;}
+#cat a#xc4:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#xc4:hover {height:150px; he\ight:0;}
+#cat a#xc5:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#xc5:hover {height:150px; he\ight:0;}
+#cat a#c6:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c6:hover {height:150px; he\ight:0;}
+#cat a#c7:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c7:hover {height:150px; he\ight:0;}
+#cat a#c8:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c8:hover {height:150px; he\ight:0;}
+#cat a#c9:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c9:hover {height:150px; he\ight:0;}
+#cat a#c10:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c10:hover {height:150px; he\ight:0;}
+#cat a#c11:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c11:hover {height:50px; he\ight:0;}
+#cat a#c12:hover {width:230px; top:0; left:0; background-position:0 0; z-index:50;}
+* html #cat a#c12:hover {height:150px; he\ight:0;}
